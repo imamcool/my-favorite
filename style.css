@@ -60,3 +60,31 @@ p {
     text-align: center;
     vertical-align: middle;
 }
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0px;
+    margin-top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    width: 100%;
+    background-color: white
+}
+
+.links {
+    display: inline;
+    color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    font-size: 25px;
+    background-color: cyan;
+    text-decoration: underline;
+}
